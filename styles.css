@@ -362,3 +362,48 @@ body{
         -1px 0px 2px rgba(255, 255, 255, 0);
 }
 
+footer{
+    background-color: #15629d;
+    display: flex;
+    min-height: 45vh;
+    align-items: center;
+    justify-content: space-between;
+    color: #E6E0D1;
+}
+
+.footer1{
+    width: 400px;
+    margin-left: 150px;
+}
+
+.footer1 h5{
+    margin-bottom: 25px;
+}
+
+.footer1 p{
+    margin-bottom: 30px;
+}
+
+.footer2{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer2 h5{
+    margin-bottom: 15px;
+}
+
+.footer2 a{
+    text-decoration: none;
+    margin-top: 10px;
+    color: #E6E0D1;
+}
+
+.footer3{
+    margin-right: 150px;
+}
+
+.footer3 p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
