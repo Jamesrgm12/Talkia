@@ -63,7 +63,10 @@ body{
     font-family: 'Gill Sans MT';
     font-size: 24px;
     width: 360px;
-    margin-left: 86px;
-    
     color: #521F33;
+    margin-left: 30px;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
 }

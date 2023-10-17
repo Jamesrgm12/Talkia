@@ -183,7 +183,6 @@ h2{
 }
 
 .tema{
-    background-color: yellow;
     display: flex;
     flex-direction: column;
     width: 30%;
@@ -244,4 +243,12 @@ hr{
     font-size: 15px;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+.tema button:hover{
+    cursor: pointer;
+}
+
+.idiomas button:hover{
+    cursor: pointer;
 }

@@ -59,3 +59,7 @@ body{
     top: 15.5%;
 
 }
+
+input[type="submit"]:hover{
+    cursor: pointer;
+}

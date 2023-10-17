@@ -21,18 +21,6 @@ body{
     margin: 3px;
 }
 
-#b2{
-
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    border: black;
-    background-color: #E7337D;
-    color: white;
-    width: 150px;
-    height: 33px;
-    border-radius: 15px;
-    margin: 3px;
-}
 #Bienvenido{
 
     margin: 5px;
@@ -68,4 +56,8 @@ body{
     left: 6px;
     bottom: 20px;
 
+}
+
+button:hover{
+    cursor: pointer;
 }

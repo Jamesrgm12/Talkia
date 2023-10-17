@@ -1,0 +1,206 @@
+
+*{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+}
+
+body{
+    background-color: #F8F1D9;
+}
+.bar{
+    background-color: #15639d;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-height: 150px;
+    min-height: 110px;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    align-items: center;
+
+}
+.logo-img{
+    width: 90px;
+    margin-left: 40px;
+}
+.title-text{
+    text-decoration: none;
+    color: #E6E0D1;
+    font-size: 25px;
+}
+.nav-bar-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.nav-bar-right img{
+    width: 50px;
+}
+
+.nav-bar-right a{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-text{
+    text-decoration: none;
+    color: #E6E0D1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-text p{
+    margin-top: 1px;
+    font-weight: 550;
+}
+
+main{
+
+    padding-top: 120px;
+}
+.F-T{
+
+    display: flex;
+}
+.F-Opciones{
+    width: 320px;
+    height: 620px;
+    margin-left: 40px;
+    margin-top: 25px;
+    padding-top: 18px;
+    background-color: #D0CBBD ;
+    border-radius: 12px;
+}
+#TituloAmigos{
+    margin-left: 36px;
+    color: #531F33;
+}
+
+
+#lupa{
+    position: absolute;
+    
+    left: 21.5%;
+    top: 45%;
+    width: 25px;
+
+}
+#treslineas{
+    position: absolute;
+    left: 84%;
+    top: 42.4%;
+    width:21px;
+
+}
+.Principal-tres{
+
+    position: relative;
+    right: 21px;
+
+
+}
+#buscadorprincipal{
+    
+    width: 200px;
+
+}
+.B-botones{
+
+    text-align: center;
+}
+.B-botones input{
+    text-align: center;
+    margin-top: 20px;
+    width: 60%;
+    height: 30px;
+    background-color: #D9D9D9;
+    border: 1.5px;
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+.botones-sec{
+
+    position: relative;
+    right: 20px;
+}
+
+#Titulo{
+    padding-left: 17%;
+    padding-top: 15px;
+    color: #531F33;
+    font-size: 50px;
+    font-family: sans-serif 
+    
+}
+.usuarios-amigos{
+    text-align: center;
+   
+}
+
+.usuarios-amigos img{
+    margin-bottom: 12px;
+    margin-top: 15px;
+
+}
+.circule{
+    position: absolute;
+    top: 9px;
+    left: 82%;
+    width: 28px;
+    height: 28px;
+    background-color: #D0CBBD;
+    border-radius: 50%;
+
+}
+.Nombre-1{
+    position: fixed;
+    top: 30%;
+    right: 54%;
+    background-color: #D9D9D9;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 22px;
+    color: #531F33;
+}
+
+.Nombre-2{
+    
+    position: fixed;
+    top: 30%;
+    right: 34%;
+    width: 200px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    font-size: 22px;
+    color: #531F33;
+}
+
+.Nombre-3{
+    position: fixed;
+    top: 30%;
+    right: 14%;
+    width: 200px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    font-size: 22px;
+    color: #531F33;
+}
+
+.Chat-llamada{
+
+    width: 21%;
+}
+
+
+
+
+

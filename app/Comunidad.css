@@ -194,4 +194,6 @@ textarea{
     border: none;
     border-radius: 15px;
     font-size: 18px;
+    cursor: pointer;
 }
+

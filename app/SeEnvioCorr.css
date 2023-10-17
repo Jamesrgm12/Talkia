@@ -61,6 +61,10 @@ body{
     font-family: 'Gill Sans MT';
     font-size: 24px;
     width: 360px;
-    margin-left: 86px;
+    margin-left: 30px;
     color: #521F33;
+}
+
+button:hover{
+    cursor: pointer;
 }
