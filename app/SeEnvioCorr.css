@@ -1,12 +1,12 @@
 body{
     background-color:#15629D;
-    background-repeat: no-repeat;
-}
-
-.LogoP{
-    position: fixed;
-   left: 380px;
-   top: 220px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
 }
 
 #b1{
@@ -19,50 +19,53 @@ body{
     width: 212px;
     height: 33px;
     border-radius: 15px;
-    margin: 6px;
+    margin: 3px;
 }
 
-
 #b2{
-
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     border: black;
     background-color: #E7337D;
     color: white;
     width: 150px;
-    height: 33px;
+    height: 35px;
     border-radius: 15px;
-    margin: 3px;
 }
-#Bienvenido{
 
-    margin: 5px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+#Bienvenido{
+    font-family: 'COCOGOOSE', sans-serif;
+    color: #E6E0D1;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 2px;
 }
 
 #Registrarse{
-    margin: 15px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'COCOGOOSE', sans-serif;
+    color: #E6E0D1;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 100;
 
 }
 .BienvenidaGeneral{
-    width: 32%;
-    text-align: center;
-    position: fixed;
-    color: white;
-    font-size: 29px;
-    left: 50%;
-    top: 15.5%;
-
+    width: 30%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-#texto{
+p{
     font-family: 'Gill Sans MT';
-    font-size: 24px;
+    font-size: 20px;
     width: 360px;
-    margin-left: 30px;
     color: #521F33;
+    margin-left: 30px;
+    margin-top: 0px;
 }
 
 button:hover{

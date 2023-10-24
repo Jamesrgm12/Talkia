@@ -1,4 +1,5 @@
 
+
 *{
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
@@ -56,14 +57,11 @@ body{
 
 .frame-1{
     display: flex;
+    flex-direction: row;
     height: 83vh;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: center;
     padding-top: 110px;
-}
-
-.frame-1 img{
-    width: 45%;
-    height: auto;
 }
 
 .presentation{
@@ -71,7 +69,7 @@ body{
     flex-direction: column;
     justify-content: center;
     max-width: 600px;
-    margin-left: 10%;
+    margin-right: 50px;
 }
 
 .presentation h1{
@@ -122,9 +120,7 @@ body{
 
 .about-1 h2{
     color: #531f33;
-    font-size: 45px;
-    font-family: 'COCOGOOSE', sans-serif;
-    font-weight: 100;
+    font-size: 50px;
 }
 
 .about-1 button{
@@ -149,11 +145,8 @@ body{
 
 .frame-3 h1{
     color: #531f33;
+    font-size: 50px;
     margin-bottom: 10px;
-    font-size: 45px;
-    font-family: 'COCOGOOSE', sans-serif;
-    font-weight: 100;
-    
 }
 
 .box-price{
@@ -253,9 +246,7 @@ body{
 
 .frame-4 h1{
     color: #531f33;
-    font-size: 45px;
-    font-family: 'COCOGOOSE', sans-serif;
-    font-weight: 100;
+    font-size: 50px;
 }
 
 .slide {
@@ -434,9 +425,7 @@ footer{
 
 .frame-5 h1{
     color: #531f33;
-    font-size: 45px;
-    font-family: 'COCOGOOSE', sans-serif;
-    font-weight: 100;
+    font-size: 50px;
     margin-bottom: 30px;
 }
 
@@ -486,9 +475,7 @@ footer{
 
 .frame-6 h1{
     color: #531f33;
-    font-size: 45px;
-    font-family: 'COCOGOOSE', sans-serif;
-    font-weight: 100;
+    font-size: 50px;
     margin-bottom: 30px;
 }
 
@@ -554,4 +541,46 @@ footer{
 
 button:hover{
     cursor: pointer;
+}
+
+@media (max-width: 600px) {
+
+    .cards-container{
+        flex-direction: column;
+    }
+    
+    .bar{
+        height: 50px;
+    }
+
+    .logo-img{
+        max-width: 30px;
+    }
+
+    .nav-text{
+        display: none;
+    }
+
+    .user-img{
+        max-width: 30px;
+    }
+
+    .frame-1 img{
+        display: none;
+    }
+
+    .frame-1{
+        width: 50%;
+        overflow: hidden;
+        padding-top: 40px;
+    }
+
+    .presentation{
+        background-color: yellowgreen;
+        align-items: center;
+    }
+
+    .frame-1 h1{
+
+    }
 }
