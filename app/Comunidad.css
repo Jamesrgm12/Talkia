@@ -94,12 +94,16 @@ main{
 main h1{
     color: #531f33;
     font-size: 40px;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 100;
 }
 
 h2{
     color: #531f33;
     font-size: 30px;
     margin-top: 5px;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 100;
 }
 
 .search-bar img{

@@ -79,6 +79,8 @@ main h1{
     text-align: center;
     color: #531f33;
     font-size: 40px;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 100;
 }
 
 .container-data{

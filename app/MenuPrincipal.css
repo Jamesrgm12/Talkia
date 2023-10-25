@@ -12,14 +12,13 @@ body{
     background-color: #15639d;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     max-height: 150px;
     min-height: 110px;
     position: fixed;
     z-index: 100;
     width: 100%;
     align-items: center;
-
+    justify-content: space-between;
 }
 
 .logo-img{
@@ -75,9 +74,12 @@ main{
 
 .title{
     color: #531f33;
-    font-size: 50px;
+    font-size: 45px;
     text-align: center;
-    margin-bottom: 60px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 100;
 }
 
 .container-services{
@@ -101,6 +103,7 @@ main{
     border-color: #E6E0D1;
     border-radius: 25px;
     transition: transform 0.3s;
+    text-decoration: none;
 }
 
 .service img{
@@ -115,6 +118,8 @@ main{
     font-weight: 600;
     margin-top: 5px;
     transition: transform 0.3s;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 100;
 }
 
 .service:hover {
@@ -128,5 +133,5 @@ main{
 }
 
 .service:hover p{
-    transform: scale(1.7);
+    transform: scale(1.4);
 }

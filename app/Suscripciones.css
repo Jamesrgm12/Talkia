@@ -137,7 +137,7 @@ main{
 }
 
 h4{
-    font-size: 25px;
+    font-size: 20px;
     color: #276A9D;
 }
 
@@ -173,8 +173,13 @@ h4{
 }
 
 .modal h1{
-    font-size: 40px;
+    font-size: 25px;
     color: #531f33;
+}
+
+h1{
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 100;
 }
 
 .container-plan{
